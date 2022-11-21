@@ -1,9 +1,12 @@
 # leaf-note
 # To Generate Secerect key
+1st way
 from django.core.management.utils import get_random_secret_key
 print(get_random_secret_key())
+2nd way
+python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 copy this key and paste it in env file
-#.env file\n
+#Env file
 #Project Credentials
 SECRET_KEY=
 
