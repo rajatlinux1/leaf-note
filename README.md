@@ -6,14 +6,11 @@ print(get_random_secret_key())
 2nd way
 python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 copy this key and paste it in env file
-#Env file
-#Project Credentials
+# Env file
 SECRET_KEY=
 
 
-#Database
-OtherDB=True/False
-if True:
+# Database
   DATABASE_NAME=
   DATABASE_USER=
   DATABASE_PASSWORD=
@@ -23,9 +20,9 @@ if True:
 
 
 
-#Email Credentials
+# Email Credentials
 EMAIL_HOST_USER=
 EMAIL_HOST_PASSWORD=
 
-#Axes
+# Axes
 AXES_ENABLED=True
